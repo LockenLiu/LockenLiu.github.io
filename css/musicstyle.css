@@ -1,0 +1,140 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form,fieldset, legend, input, textarea, button, p{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+	font-family: 'Dosis', sans-serif;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	font-family: 'Dosis', sans-serif;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Ink Free', sans-serif;
+}
+
+/*Header*/
+.navbar-default .navbar-nav>li>a {
+color: #777;
+font-size: 20px;
+font-family: 'Ink Free';
+}
+.navbar-default .navbar-nav>li>a:hover{
+	font-size: 23px;
+	color: pink;
+}
+header{
+	background: url(../images/desk.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.section_overlay{
+	background: rgba(250,250,250, .5);
+}
+.home_text{
+	padding-top: 110px;
+	padding-bottom: 310px;
+}
+.home_text h2{
+	color: pink;
+	font-size: 40px;
+	letter-spacing: 18px;
+}
+.home_text a{
+	color: #404040;
+}
+.home_text a:hover{
+	color: pink;
+}
+.home_text p{
+	color: #404040;
+	font-size: 17px;
+}
+.home_text img{
+    opacity: 0.8;
+}
+
+/*body*/
+#MAIN{
+    background-color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.awo{
+    background-color: rgb(251, 244, 245);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.list-group{
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+.list-group-item{
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+/*Footer*/
+footer{
+	background-color: rgb(243,235,235);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.footer_logo{
+	color: pink;
+}
+.footer_logo img{}
+
+.social{
+	padding-top: 20px;
+}
+.social h2{
+text-transform: uppercase;
+font-size: 25px;	
+}
+ul.icon_list{
+margin: 0;
+padding: 0;
+list-style: none;
+text-align: center;
+margin-top: 20px;
+}
+ul.icon_list li{
+display: inline;
+padding-left: 3px;
+padding-right: 3px;
+}
+ul.icon_list li a{
+display: inline-block;
+color: #636363;
+border: 1px solid #636363;
+border-radius: 50%;
+text-align: center;
+width: 30px;
+height: 30px;
+text-align: center;
+line-height: 28px;
+transition: all 1s;
+}
+ul.icon_list li a:hover{
+	color: pink;
+	border-color:pink; 
+}
+.copyright_text{
+padding-top: 40px;	
+}
+.copyright_text p{
+color: #636363;
+font-size: 12px;
+text-transform: uppercase;
+margin-bottom: 0px;
+letter-spacing: 0px;
+}
+.copyright_text a{
+	color:pink;
+	text-transform:uppercase;
+	font-weight:700;
+	text-decoration:none;
+	}
