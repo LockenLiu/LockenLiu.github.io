@@ -26,7 +26,7 @@ font-family: 'Ink Free';
 	color: pink;
 }
 header{
-	background: url(../images/desk.png);
+	background: url(../images/light.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -74,6 +74,19 @@ header{
 .list-group-item{
     margin-left: 3.5rem;
     margin-right: 3.5rem;
+}
+
+/*sonpage*/
+.g-2 .btn-outline-secondary{
+	color: pink;
+	border-color: pink;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.g-2 .btn-outline-secondary:hover{
+	size: 20px;
+	color: palevioletred;
+	border-color: palevioletred;
 }
 
 /*Footer*/
