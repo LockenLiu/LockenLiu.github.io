@@ -89,6 +89,25 @@ header{
     padding-right: 15px;
 }
 
+/*lab-publication*/
+.section-publicatiol{
+    background-color: rgb(250, 250, 255);
+}
+.publication-h1{
+    padding-top: 5rem;
+}
+.pub-item{
+    margin-top: 25px;
+    background-color: rgb(241, 241, 249);
+    border-radius: 5%;
+    margin-bottom: 25px;
+}
+.pub-item:hover{
+    background-color: rgb(228, 228, 249);
+    opacity: 70%;
+}
+
+
 /*score*/
 .section-edu-bg{
     padding-bottom: 40px;
